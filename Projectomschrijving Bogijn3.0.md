@@ -28,7 +28,7 @@ Enkel in de duitse variant van de website moet er niet op kenteken worden gezoch
 
 In huidig bogijn worden Ashuki producten omgetoverd naar Bogijns choice producten, deze functionaliteit moet ook vertaald worden naar Bogijn 3.0.
 
-### Commando / listener voor nieuwe bestellingen
+### Listener voor nieuwe bestellingen
 
  Bogijn maakt gebruik van een ERP systeem. Wanneer er een nieuwe bestelling is moet er code worden uitgevoerd om deze naar dit ERP systeem toe te sturen.
 
@@ -36,11 +36,9 @@ In huidig bogijn worden Ashuki producten omgetoverd naar Bogijns choice producte
 
 In huidig bogijn is er speciale zoekfunctionaliteit, deze maakt het mogelijk om door beide TecDoc producten heen te zoeken, maar ook door de lokale database verbonden aan bogijn. Deze functionaliteit moet worden geimplementeerd in Bogijn3.0
 
-### Safebuy artikelen / Accessoires op winkelwagenpagina
+### Safebuy
 
-Een safebuy artikel is een speciaal soort artikel waarbij het retourtermijn niet 14 dagen maar 100 dagen heeft, bevat ook kosteloos retourlabel. Deze moeten kunnen worden toegevoegd aan de winkelwagen. Zie [Winkelwagen](https://bogijn.nl/cart).
-
-Onderaan de winkelwagenpagina staan een aantal assecoires. Deze moeten ook worden weergegeven op de bogijn 3.0 winkelwagenpagina. Zie [Winkelwagen](https://bogijn.nl/cart).
+Safebuy is een speciaal soort 'artikel' welke je kan toevoegen aan je winkelwagen, Deze moet op de winkelwagenpagina toevoegbaar zijn aan je winkelwagen wanneer je verder nog geen artikelen hebt toegevoegd.
 
 ### Layout en styling
 
@@ -61,7 +59,6 @@ Recentelijk is er een salesforce integratie commando aangemaakt in bogijn2.0, de
 ### Assortiment
 
 Vergelijkbaar met de sitemap welke benodigd is voor bogijn3, is er ook een assortiment pagina, deze geeft alle ingeschakelde montage groepen weer, functionaliteit vereist hetzelfde te werken als bogijn.nl/assortiment.
-
 
 ### Order listener
 
